@@ -6,8 +6,8 @@ int main() {
 char n;
 char x;
 cin>>n;
-x= convertecarattere(n);
-    if (convertecarattere(n)){
+x= convertecaratteri(n);
+    if (convertecaratteri(n)){
         cout<<x;
     }else {
         cout<<"errore";
