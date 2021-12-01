@@ -1,1 +1,5 @@
+#ifndef ESERCITAZIONE6_CONVERSIONE_H
+#define ESERCITAZIONE6_CONVERSIONE_H
+bool inverter(char,char &,char &);
+#endif //ESERCITAZIONE6_CONVERSIONE_H
 
