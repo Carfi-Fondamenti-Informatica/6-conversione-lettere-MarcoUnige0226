@@ -1,14 +1,16 @@
 #include<iostream>
 #include "conversione.h"
 
-char convertecarattere(char c){
+char convertecarattere(char n){
     char risultato;
-    if (c>='A'&& c<='Z'){
-        risultato=c+32;
-    }else if (c>='a'&& c<='z'){
-        risultato=c-32;
+    if (n>='A'&& n<='Z'){
+        risultato=n+32;
         return risultato;
-    }else{
-        return false;
-            }
+    }
+    else if (n>='a'&& n<='z'){
+        risultato=n-32;
+    return risultato;
+    }else
+    return false;
+
 }
