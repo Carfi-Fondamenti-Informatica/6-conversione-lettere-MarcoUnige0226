@@ -1,5 +1,4 @@
 #ifndef ESERCITAZIONE6_CONVERSIONE_H
 #define ESERCITAZIONE6_CONVERSIONE_H
-bool inverter(char,char &,char &);
+char convertecarattere(char c);
 #endif //ESERCITAZIONE6_CONVERSIONE_H
-
