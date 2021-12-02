@@ -4,12 +4,13 @@ using namespace std;
 
 int main() {
 char n;
-char x;
+char ris;
 cin>>n;
-x= convertecarattere(n);
-    if (convertecarattere(n)){
-        cout<<x;
-    }else {
+char x= cc(n,ris);
+    if (x==true){
+        cout<<ris;
+    }
+    else if(x==false){
         cout<<"errore";
     }
     return 0;
