@@ -1,7 +1,7 @@
 #include<iostream>
 #include "conversione.h"
 
-char convertecaratteri(char n){
+char convertecarattere(char n){
     char risultato;
     if (n>='A'&& n<='Z'){
         risultato=n+32;
