@@ -1,4 +1,5 @@
 #ifndef ESERCITAZIONE6_CONVERSIONE_H
 #define ESERCITAZIONE6_CONVERSIONE_H
-char convertecarattere(char c);
+char cc(char n,char &ris);
 #endif //ESERCITAZIONE6_CONVERSIONE_H
+
