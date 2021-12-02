@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 #include "conversione.h"
 
 char cc(char n,char &ris){
